@@ -309,4 +309,110 @@ body, input, textarea, select {
                 position: relative;
             }
 
+            #footer {
+                position: relative;
+                overflow: hidden;
+                border-top: solid 2px #e5e5e5;
+                background: #f0f0f0;
+                padding: 6em 0 8em 0;
+            }
             
+                #footer form input[type="text"],
+                #footer form input[type="email"],
+                #footer form input[type="password"],
+                #footer form select,
+                #footer form textarea {
+                    background: #f7f7f7;
+                }
+            
+                    #footer form input[type="text"]:focus,
+                    #footer form input[type="email"]:focus,
+                    #footer form input[type="password"]:focus,
+                    #footer form select:focus,
+                    #footer form textarea:focus {
+                        background: #fff;
+                    }
+            
+                #footer h2 {
+                    text-align: center;
+                }
+                .buton{
+                    text-decoration: none;
+                    padding: 10px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #070404;
+                    background-color: #abe2e2;
+                    border-radius: 6px;
+                    border: 2px solid hsl(0, 31%, 31%);
+                    text-align: center
+                  }
+                  .buton:hover{
+                    color: rgb(2, 2, 2);
+                    background-color: #ffffff;
+                  }
+            
+                  #footer {
+                    padding: 4em 0;
+                }
+            
+                form label {
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: #888;
+                    display: block;
+                    margin: 0 0 1em 0;
+                }
+            
+                form input[type="text"],
+                form input[type="email"],
+                form input[type="password"],
+                form select,
+                form textarea {
+                    -moz-transition: background-color 0.25s ease-in-out;
+                    -webkit-transition: background-color 0.25s ease-in-out;
+                    -ms-transition: background-color 0.25s ease-in-out;
+                    transition: background-color 0.25s ease-in-out;
+                    -webkit-appearance: none;
+                    display: block;
+                    border: 0;
+                    background: #e8e8e8;
+                    width: 100%;
+                    box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+                    border-radius: 4px;
+                    line-height: 1.25em;
+                    padding: 0.75em 1em 0.75em 1em;
+                }
+            
+                    form input[type="text"]:focus,
+                    form input[type="email"]:focus,
+                    form input[type="password"]:focus,
+                    form select:focus,
+                    form textarea:focus {
+                        background: #f0f0f0;
+                    }
+            
+                form textarea {
+                    min-height: 11em;
+                }
+            
+                form ::-webkit-input-placeholder {
+                    color: #555 !important;
+                    line-height: 1.35em;
+                }
+            
+                form :-moz-placeholder {
+                    color: #555 !important;
+                }
+            
+                form ::-moz-placeholder {
+                    color: #555 !important;
+                }
+            
+                form :-ms-input-placeholder {
+                    color: #555 !important;
+                }
+            
+                form ::-moz-focus-inner {
+                    border: 0;
+                }
