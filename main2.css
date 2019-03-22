@@ -98,3 +98,103 @@ body, input, textarea, select {
         background-color: #4CAF50;
         color: white;
       }
+
+      #banner {
+        position: relative;
+        color: #994141;
+        text-align: center;
+        background-size: cover;
+        border-radius: 40px !important;
+        
+    }
+    #banner p {
+            font-weight: 400;
+            font-size: 3em;
+            line-height: 1.5em;
+            letter-spacing: 4px;
+            text-align: left;
+            margin: 0;
+        }
+    
+        #banner strong {
+            color: inherit;
+        }
+    
+        #banner > .container {
+            position: relative;
+        }
+    
+    #m {
+        text-align: center !important;
+    }
+    
+    /* Banner */
+    
+    #banner2 {
+        position: relative;
+        overflow: hidden;
+        color: #994141;
+        text-align: right;
+        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), #3e84adbb);
+        border-radius: 40px !important;
+        
+    }
+    
+    #banner2 p {
+            font-weight: 400;
+            font-size: 2em;
+            line-height: 1.5em;
+            letter-spacing: 4px;
+            text-align: left;
+            margin: 0;
+        }
+    
+        #banner2 strong {
+            color: inherit;
+        }
+    
+        #banner2 > .container {
+            position: relative;
+        }
+    
+    #e {
+        color: #631616;
+        background-color: #6d6c6c;
+        padding: 10px;
+        text-align: center !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+    #k {
+        color: rgb(64, 122, 149);
+        text-align: justify !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+    #p {
+        color: hsl(202, 40%, 29%);
+        text-align: justify !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+    
+    #b {
+        color: hsl(202, 40%, 29%);
+        text-align: justify !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+    
+    #s {
+        color: rgb(64, 122, 149);
+        text-align: justify !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+    
+    #f {
+        color:  rgb(64, 122, 149);
+        text-align: justify !important;
+        margin: 0px 250px 20px 250px !important;
+    }
+
+    section img {
+        width: 40%;
+        border-radius: 40px;
+    }
