@@ -272,3 +272,41 @@ body, input, textarea, select {
         #banner4 > .container {
             position: relative;
         }
+
+        #banner5 {
+            position: relative;
+            overflow: hidden;
+            color: hsla(180, 50%, 1%, 0.925);
+            text-align: right;
+            background-size: cover;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), #058310c2);
+            border-radius: 40px !important;
+            
+        }
+        
+        #banner5 p {
+                font-weight: 400;
+                font-size: 2em;
+                line-height: 1.5em;
+                letter-spacing: 4px;
+                text-align: left;
+                margin: 0;
+            }
+        #C{
+            text-align: center !important;
+            background: gray
+        }
+        #c {
+            text-align: justify !important;
+            color: #072c1a
+        }
+        
+            #banner5 strong {
+                color: inherit;
+            }
+        
+            #banner5 > .container {
+                position: relative;
+            }
+
+            
