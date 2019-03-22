@@ -128,8 +128,6 @@ body, input, textarea, select {
         text-align: center !important;
     }
     
-    /* Banner */
-    
     #banner2 {
         position: relative;
         overflow: hidden;
@@ -138,6 +136,7 @@ body, input, textarea, select {
         background-size: cover;
         background-image: linear-gradient(to right, rgba(255,0,0,0), #3e84adbb);
         border-radius: 40px !important;
+        margin: 40px 0px 40px 0px !important
         
     }
     
@@ -198,3 +197,78 @@ body, input, textarea, select {
         width: 40%;
         border-radius: 40px;
     }
+
+    #banner3 {
+        position: relative;
+        overflow: hidden;
+        color: #502020;
+        text-align: right;
+        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255,0,0,0),#3c4f65);
+        border-radius: 40px !important;
+        margin: 40px 0px 40px 0px !important
+    }
+    
+    #h {
+        background: gray !important;
+        text-align: center !important;
+    }
+    
+    #h2 {
+        text-align: justify !important;
+    }
+    #banner3 p {
+            font-weight: 400;
+            font-size: 2em;
+            line-height: 1.5em;
+            letter-spacing: 4px;
+            text-align: left;
+            margin: 0;
+        }
+    
+        #banner3 strong {
+            color: inherit;
+        }
+    
+        #banner3 > .container {
+            position: relative;
+        }
+    
+    #banner4 {
+        position: relative;
+        overflow: hidden;
+        color: hsla(273, 44%, 36%, 0.925);
+        text-align: right;
+        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), #834c69);
+        border-radius: 40px !important;
+        margin: 40px 0px 40px 0px !important
+        
+    }
+    
+    #r {
+        text-align: center !important;
+        background: gray;
+        color: rgb(94, 31, 94);
+    }
+    
+    #o {
+        text-align: justify !important;
+        color: purple;
+    }
+    #banner4 p {
+            font-weight: 400;
+            font-size: 2em;
+            line-height: 1.5em;
+            letter-spacing: 4px;
+            text-align: left;
+            margin: 0;
+        }
+    
+        #banner4 strong {
+            color: inherit;
+        }
+    
+        #banner4 > .container {
+            position: relative;
+        }
